@@ -1,0 +1,124 @@
+{
+  "flights": [
+  {
+    "bookingId": "A10001",
+    "status": "confirmed",
+    "passengerName": "Marie Curie",
+    "flightNumber": "JL046",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T13:00:00Z",
+    "arrivalTime": "2026-01-02T08:30:00Z",
+    "price": 850.0,
+    "currency": "EUR"
+  },
+  {
+    "bookingId": "A10002",
+    "status": "confirmed",
+    "passengerName": "Albert Einstein",
+    "flightNumber": "AF276",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T10:30:00Z",
+    "arrivalTime": "2026-01-02T06:00:00Z",
+    "price": 910.0,
+    "currency": "EUR"
+  },
+  {
+    "bookingId": "A10003",
+    "status": "confirmed",
+    "passengerName": "Isaac Newton",
+    "flightNumber": "NH216",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T14:15:00Z",
+    "arrivalTime": "2026-01-02T09:30:00Z",
+    "price": 880.0,
+    "currency": "EUR"
+  },
+  {
+    "bookingId": "A10004",
+    "status": "confirmed",
+    "passengerName": "Galileo Galilei",
+    "flightNumber": "JL048",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T17:30:00Z",
+    "arrivalTime": "2026-01-02T12:30:00Z",
+    "price": 930.0,
+    "currency": "EUR"
+  },
+  {
+    "bookingId": "A10005",
+    "status": "confirmed",
+    "passengerName": "Ada Lovelace",
+    "flightNumber": "AF278",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T19:00:00Z",
+    "arrivalTime": "2026-01-02T14:00:00Z",
+    "price": 870.0,
+    "currency": "EUR"
+  },
+  {
+    "bookingId": "A10006",
+    "status": "confirmed",
+    "passengerName": "Niels Bohr",
+    "flightNumber": "NH218",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T09:00:00Z",
+    "arrivalTime": "2026-01-02T04:00:00Z",
+    "price": 895.0,
+    "currency": "EUR"
+  },
+  {
+    "bookingId": "A10007",
+    "status": "confirmed",
+    "passengerName": "Sophie Germain",
+    "flightNumber": "JL050",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T21:30:00Z",
+    "arrivalTime": "2026-01-02T15:55:00Z",
+    "price": 940.0,
+    "currency": "EUR"
+  },
+  {
+    "bookingId": "A10008",
+    "status": "confirmed",
+    "passengerName": "Blaise Pascal",
+    "flightNumber": "AF280",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T07:15:00Z",
+    "arrivalTime": "2026-01-02T02:40:00Z",
+    "price": 940.0,
+    "currency": "EUR"
+  },
+  {
+    "bookingId": "A10009",
+    "status": "confirmed",
+    "passengerName": "Leonhard Euler",
+    "flightNumber": "NH220",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T23:10:00Z",
+    "arrivalTime": "2026-01-02T18:20:00Z",
+    "price": 975.0,
+    "currency": "EUR"
+  },
+  {
+    "bookingId": "A10010",
+    "status": "confirmed",
+    "passengerName": "Évariste Galois",
+    "flightNumber": "JL052",
+    "departureAirport": "CDG",
+    "arrivalAirport": "HND",
+    "departureTime": "2026-01-01T15:25:00Z",
+    "arrivalTime": "2026-01-02T10:50:00Z",
+    "price": 975.0,
+    "currency": "EUR"
+  }
+]
+}

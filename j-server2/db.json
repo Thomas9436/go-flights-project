@@ -1,0 +1,297 @@
+{
+  "flight_to_book": [
+    {
+      "reference": "B30001",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "AF276",
+            "from": "CDG",
+            "to": "HND",
+            "depart": "2026-01-01T10:00:00Z",
+            "arrive": "2026-01-01T23:00:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 950.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "reference": "B30002",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "JL046",
+            "from": "CDG",
+            "to": "HND",
+            "depart": "2026-01-01T11:30:00Z",
+            "arrive": "2026-01-02T01:00:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 1020.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "reference": "B30003",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "NH216",
+            "from": "CDG",
+            "to": "HND",
+            "depart": "2026-01-01T13:00:00Z",
+            "arrive": "2026-01-02T04:00:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 1100.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "reference": "B30004",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "KE902",
+            "from": "CDG",
+            "to": "ICN",
+            "depart": "2026-01-01T09:30:00Z",
+            "arrive": "2026-01-01T18:00:00Z"
+          }
+        },
+        {
+          "flight": {
+            "number": "KE711",
+            "from": "ICN",
+            "to": "HND",
+            "depart": "2026-01-01T20:00:00Z",
+            "arrive": "2026-01-02T00:30:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 880.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "reference": "B30005",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "AY1582",
+            "from": "CDG",
+            "to": "HEL",
+            "depart": "2026-01-01T07:00:00Z",
+            "arrive": "2026-01-01T11:30:00Z"
+          }
+        },
+        {
+          "flight": {
+            "number": "AY073",
+            "from": "HEL",
+            "to": "HND",
+            "depart": "2026-01-01T13:00:00Z",
+            "arrive": "2026-01-02T05:30:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 790.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "reference": "B30006",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "KL1224",
+            "from": "CDG",
+            "to": "AMS",
+            "depart": "2026-01-01T06:30:00Z",
+            "arrive": "2026-01-01T08:00:00Z"
+          }
+        },
+        {
+          "flight": {
+            "number": "KL861",
+            "from": "AMS",
+            "to": "HND",
+            "depart": "2026-01-01T10:00:00Z",
+            "arrive": "2026-01-02T05:00:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 970.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "reference": "B30007",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "CX260",
+            "from": "CDG",
+            "to": "HKG",
+            "depart": "2026-01-01T12:00:00Z",
+            "arrive": "2026-01-02T04:30:00Z"
+          }
+        },
+        {
+          "flight": {
+            "number": "CX542",
+            "from": "HKG",
+            "to": "HND",
+            "depart": "2026-01-02T06:30:00Z",
+            "arrive": "2026-01-02T11:30:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 890.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "reference": "B30008",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "BA303",
+            "from": "CDG",
+            "to": "LHR",
+            "depart": "2026-01-01T08:30:00Z",
+            "arrive": "2026-01-01T09:30:00Z"
+          }
+        },
+        {
+          "flight": {
+            "number": "BA007",
+            "from": "LHR",
+            "to": "HND",
+            "depart": "2026-01-01T12:00:00Z",
+            "arrive": "2026-01-02T09:00:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 930.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "reference": "B30009",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "EK076",
+            "from": "CDG",
+            "to": "DXB",
+            "depart": "2026-01-01T14:00:00Z",
+            "arrive": "2026-01-01T23:00:00Z"
+          }
+        },
+        {
+          "flight": {
+            "number": "EK312",
+            "from": "DXB",
+            "to": "HND",
+            "depart": "2026-01-02T02:30:00Z",
+            "arrive": "2026-01-02T17:00:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 1050.0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "reference": "B30010",
+      "status": "confirmed",
+      "traveler": {
+        "firstName": "Marie",
+        "lastName": "Curie"
+      },
+      "segments": [
+        {
+          "flight": {
+            "number": "QR040",
+            "from": "CDG",
+            "to": "DOH",
+            "depart": "2026-01-01T16:00:00Z",
+            "arrive": "2026-01-01T23:30:00Z"
+          }
+        },
+        {
+          "flight": {
+            "number": "QR812",
+            "from": "DOH",
+            "to": "HND",
+            "depart": "2026-01-02T02:00:00Z",
+            "arrive": "2026-01-02T18:00:00Z"
+          }
+        }
+      ],
+      "total": {
+        "amount": 990.0,
+        "currency": "EUR"
+      }
+    }
+  ]
+}
