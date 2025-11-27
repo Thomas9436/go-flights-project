@@ -3,6 +3,7 @@ package service
 import (
 	"aggregator/model"
 	"aggregator/repo"
+	"aggregator/sorters"
 	"errors"
 )
 
@@ -27,6 +28,8 @@ func (s *FlightService) FetchAndMerge(destination string, sortKey string) ([]mod
 		}
 		merged = append(merged, f...)
 	}
+
+	sorters.SortByKey(merged, sortKey)
 
 	return merged, nil
 }
