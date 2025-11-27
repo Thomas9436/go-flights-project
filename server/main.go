@@ -22,7 +22,13 @@ func main() {
 
 	mux := http.NewServeMux()
 
-	
+	instantiate repos
+    j1 := repo.NewJServer1Repo()
+    j2 := repo.NewJServer2Repo()
+
+    svc := service.NewFlightService(j1, j2)
+    h := controller.NewHandler(svc)
+    h.RegisterRoutes(mux)
 
 	port := viper.GetString("PORT")
 	if p := os.Getenv("PORT"); p != "" {
