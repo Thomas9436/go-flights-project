@@ -56,3 +56,38 @@ startup :
 
 tests : 
 - use Testify : [Link Text](https://github.com/stretchr/testify)
+
+
+
+## What you can do with this application
+
+- **Fetch flights from multiple sources** : Aggregate flight data from two different flight APIs (j-server1 and j-server2) in a single request
+- **Normalize flight data** : Convert flights from different API formats into a unified model structure
+- **Sort flights** : Sort aggregated flights by:
+  - **Price** (lowest to highest)
+  - **Departure date** (earliest to latest)
+  - **Travel time** (shortest to longest)
+- **Filter by destination** : Query flights for a specific arrival airport
+- **Health check** : Verify the server's operational status with a simple health endpoint
+
+## Usage Examples
+
+### Check server health
+```bash
+curl http://localhost:3001/health
+```
+
+### Get all flights sorted by price (default)
+```bash
+curl http://localhost:3001/flight?to=HND
+```
+
+### Get flights sorted by departure date
+```bash
+curl "http://localhost:3001/flight?to=CDG&sort_by=departure"
+```
+
+### Get flights sorted by travel time
+```bash
+curl "http://localhost:3001/flight?to=LAX&sort_by=time_travel"
+```
