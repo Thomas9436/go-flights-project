@@ -1,5 +1,7 @@
 # Flight Aggregator
 
+# Timothe Peyregne, Quentin Seillon, Abdul Mounirou, Thomas Roux  
+
 The goal of the api is to get every flight to a destination and sort it by : 
     - price,
     - departure date
